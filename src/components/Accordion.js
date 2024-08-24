@@ -38,7 +38,8 @@ const Accordion = () => {
     };
 
     fetchBooks();
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Disable ESLint warning for this line
 
   const toggleIndex = (index) => {
     setActiveIndex(index === activeIndex ? null : index);

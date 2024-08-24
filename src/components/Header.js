@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-center p-4">
         {/* Logo */}
         <div className="text-2xl font-bold">
-          <a href="#">ArchiveLane</a>
+          ArchiveLane
         </div>
 
         {/* Hamburger Menu (for mobile view) */}
@@ -41,24 +41,19 @@ const Header = () => {
         >
           <ul className="md:flex space-y-4 md:space-y-0 md:space-x-8 p-4 md:p-0">
             <li>
-              <a href="#" className="hover:text-gray-400 transition">
+              <a href="#Home" className="hover:text-gray-400 transition">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-gray-400 transition">
+              <a href="/Aboutus" className="hover:text-gray-400 transition">
                 About
               </a>
             </li>
-            <li>
-              <a href="#" className="hover:text-gray-400 transition">
-                Services
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-gray-400 transition">
+            <li className="hover:text-gray-400 transition">
+                Services     </li>
+            <li className="hover:text-gray-400 transition">
                 Contact
-              </a>
             </li>
           </ul>
         </nav>

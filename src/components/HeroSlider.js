@@ -63,7 +63,7 @@ const HeroSlider = () => {
               {slide.description}
             </p>
             <a
-              href="#"
+              href="/Join"
               className={`mt-8 inline-block bg-orange-500 text-white text-lg
               font-light py-3 px-6 rounded-md hover:bg-black-600
               transition-transform duration-1000 ease-in-out ${

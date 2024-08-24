@@ -18,7 +18,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
     "stream-browserify": "^3.0.0",
@@ -58,8 +58,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@eslint/js": "^9.9.1",
-    "eslint": "^9.9.1",
+    "@typescript-eslint/eslint-plugin": "^8.2.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "eslint": "^7.32.0",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-react": "^7.35.0",
     "globals": "^15.9.0"
   }
