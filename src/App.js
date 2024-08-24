@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 
 import Header from "./components/Header";
-
-import AboutUs from './components/AboutUs';
 import HeroSlider from './components/HeroSlider';
-import SearchBar from './components/SearchBar';
 import Accordion from './components/Accordion';
 import EbookList from './components/EbookList';
 import PopularEbooks from './components/PopularEbooks';

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from './Images/logo.png';
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -47,7 +46,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="./aboutus" className="hover:text-gray-400 transition">
+              <a href="#" className="hover:text-gray-400 transition">
                 About
               </a>
             </li>
